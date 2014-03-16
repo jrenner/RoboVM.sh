@@ -10,3 +10,15 @@ The default file is an example of how to use a shell script to run RoboVM to com
 The script is written so that you may easily understand it and change it to suit the needs of your project
 
 Pull Requests are welcome.
+
+## Requirements
+RoboVM installed [Getting Started](http://www.robovm.org/docs)
+XCode installed
+
+## Help and Technical Issues
+RoboVM can break easily because of constant changes in the ecosystem and dependencies, here are some tips:
+1. update to RoboVM nightlies
+2. update XCode
+3. if working with libgdx, update libgdx to nightlies
+
+If all else fails, get help at the RoboVM Google Group
