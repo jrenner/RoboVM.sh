@@ -12,7 +12,7 @@ The script is written so that you may easily understand it and change it to suit
 Pull Requests are welcome.
 
 ## Requirements
-RoboVM installed [Getting Started](http://www.robovm.org/docs)
+RoboVM installed - [Getting Started with RoboVM](http://www.robovm.org/docs)
 XCode installed
 
 ## Help and Technical Issues
