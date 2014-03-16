@@ -11,7 +11,7 @@ ROBO="$HOME/robovm" # RoboVM installed here
 ROBO_LIBS="$ROBO/lib"
 PROJECT="$HOME/projects/Robokot"
 IOS_LIBS="$PROJECT/lib/ios" # libgdx's iOS libs (.a files)
-OUT="$PROJECT/out/production" # compiled Java .class files
+OUT="$PROJECT/out/production/Robokot" # compiled Java .class files
 
 # Kotlin and libgdx libraries
 LIBS_CP="$PROJECT/lib/gdx.jar:$PROJECT/lib/gdx-backend-robovm.jar:$PROJECT/lib/kotlin-runtime.jar"
@@ -35,6 +35,6 @@ CONFIG=$PROJECT/robovm.xml
 # settings read from PLIST and CONFIG will be overridden by
 # command line args given after them
 
-STARTER_CLASS=robotkot.RoboVMStarter
+STARTER_CLASS=robokot.RoboVMStarter
 
 $ROBO/bin/robovm -verbose -config $CONFIG -plist $PLIST -arch $ARCH -os $TARGET_OS -cp $ROBO_CP:$LIBS_CP -libs $EXT_LIBS -run $STARTER_CLASS
