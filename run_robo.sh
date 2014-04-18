@@ -5,7 +5,7 @@
 # - IPA Creation
 ######
 
-VERSION="v0.2"
+VERSION="v0.3"
 
 ROBO="$HOME/robovm" # The locaiton you installed/extractd RoboVM
 ROBO_LIBS="$ROBO/lib"
